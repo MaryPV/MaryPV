@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<ul>
+	<li class="navlist"><a href="home.html">Home</a> &nbsp; &brvbar;  &nbsp; 
+	<li class="navlist"><a href="hobbies.html">Hobbies</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="pictures.html">Pictures</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="video gallery.html">Video Gallery</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="contact information.html">Contact Information</a>
+</ul>
+</div>
+
+<map name="menubar" id="menubar">
+		<area shape="rect" coords="17,103,120,208" href="home.html" alt="Home" />
+		<area shape="rect" coords="153,109,225,204" href="hobbies.html" alt="Hobbies" />
+		<area shape="poly" coords="285,110,330,110,356,158,330,208,286,208,256,158" href="pictures.html" alt="Pictures" />
+		<area shape="poly" coords="385,115,438,108,486,137,445,210,385,197" href="video gallery.html" alt="Video Gallery" />
+		<area shape="rect" coords="510,104,609,207" href="contact information.html" alt="Contact Information" />
+</map>
+<style type="text/css">
+
+<!--
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#138D75;
+  }
+  
+  li{
+    float:left;
+  }
+  
+  li a, .dropbtn
+  {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover, .dropdown:hover, .dropbtn
+  {
+    background-color:#F1C40F;
+  }
+  
+  .dropdown
+  {
+    display:inline-block;
+  }
+  
+  .dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a
+  {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content
+  {
+    display:block;
+  }
+body        {font-family: Snell Roundhand, cursive;
+            font-size: 11pt;}
+			
+legend      {float: left;
+            color: #0000fe;
+font-syle:  italic; 
+font-size:  small;}
+
+html {
+height: 100%;
+}
+
+-->
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marina Villaseñor Pineda/Video Gallery</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="videos">
+            <video class="active" src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210814_204953.mp4" muted></video>
+            <video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210814_214428.mp4" muted></video>
+            <video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210315_124434%20-%20Copy.mp4" muted></video>
+			<video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210815_083913.mp4" muted></video>
+			<video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210814_201624.mp4" muted></video>
+            <video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20220101_234745%20-%20Copy.mp4" muted></video>
+			<video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210314_112838.mp4" muted></video>
+			<video src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210403_171752.mp4" muted></video>
+        </div>
+        <div class="main-video">
+            <video src="videos/video1.mp4" muted controls autoplay></video>
+        </div>
+    </div>
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('.videos video').click(function(){
+
+                $(this).addClass('active').siblings().removeClass('active');
+
+                var src = $(this).attr('src');
+                $('.main-video video').attr('src',src);
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>   
+<meta charset="utf-8"/>
+<title>My Final Proyect</title>
+<style type="text/css">
+
+<!--
+
+body        {font-family: Snell Roundhand, cursive;
+            font-size: 11pt;}
+			
+legend      {float: left;
+            color: #0000fe;
+font-syle:  italic; 
+font-size:  small;}
+
+li.navlist	{display: inline; 
+			list-style-type: none;}	
+			
+a			{text-decoration: none;
+			color: #003333;}	
+			
+a:hover		{background: #333333; 
+			color: white;}	
+
+-->
+</style>
+</head>
+
+<div style="text-align: center">
+<h1 style="color: #006666"> Marina Villaseñor Pineda</h1>
+</div>
+
+<body>
+
+<div style="text-align: center">
+	<img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/perfil.jpg" alt="picture" width="225" height="300" />
+<p style="color: #2b919e">"Believe in yourself, and the rest will fall into place. Have faith in your own abilities, work hard, and there is nothing you cannot accomplish.
+<br />-Brad Henry"</p>
+</div>
+
+<div style="text-align: center">
+<ul>
+	<li class="navlist"><a href="about me.html">About Me</a> &nbsp; &brvbar;  &nbsp; 
+	<li class="navlist"><a href="hobbies.html">Hobbies</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="facts.html">Facts</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="video gallery.html">Video Gallery</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="contact information.html">Contact Information</a>
+</ul>
+</div>
+
+<map name="menubar" id="menubar">
+		<area shape="rect" coords="17,103,120,208" href="about me.html" alt="About Me" />
+		<area shape="rect" coords="153,109,225,204" href="hobbies.html" alt="Hobbies" />
+		<area shape="poly" coords="285,110,330,110,356,158,330,208,286,208,256,158" href="facts.html" alt="Facts" />
+		<area shape="poly" coords="385,115,438,108,486,137,445,210,385,197" href="video gallery.html" alt="Video Gallery" />
+		<area shape="rect" coords="510,104,609,207" href="contact information.html" alt="Contact Information" />
+</map>
+
+
+
+</body>
+</html>
+

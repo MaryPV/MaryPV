@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>   
+<meta charset="utf-8"/>
+<title>Marina Villaseñor Pineda/Pictures</title>
+<div style="text-align: center">
+<ul>
+	<li class="navlist"><a href="home.html">Home</a> &nbsp; &brvbar;  &nbsp; 
+	<li class="navlist"><a href="hobbies.html">Hobbies</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="pictures.html">Pictures</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="video gallery.html">Video Gallery</a> &nbsp;  &brvbar; &nbsp; 
+	<li class="navlist"><a href="contact information.html">Contact Information</a>
+</ul>
+</div>
+
+<map name="menubar" id="menubar">
+		<area shape="rect" coords="17,103,120,208" href="home.html" alt="Home" />
+		<area shape="rect" coords="153,109,225,204" href="hobbies.html" alt="Hobbies" />
+		<area shape="poly" coords="285,110,330,110,356,158,330,208,286,208,256,158" href="pictures.html" alt="Pictures" />
+		<area shape="poly" coords="385,115,438,108,486,137,445,210,385,197" href="video gallery.html" alt="Video Gallery" />
+		<area shape="rect" coords="510,104,609,207" href="contact information.html" alt="Contact Information" />
+</map>
+<style type="text/css">
+
+<!--
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#138D75;
+  }
+  
+  li{
+    float:left;
+  }
+  
+  li a, .dropbtn
+  {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover, .dropdown:hover, .dropbtn
+  {
+    background-color:#F1C40F;
+  }
+  
+  .dropdown
+  {
+    display:inline-block;
+  }
+  
+  .dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a
+  {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content
+  {
+    display:block;
+  }
+body        {font-family: Snell Roundhand, cursive;
+            font-size: 11pt;}
+			
+legend      {float: left;
+            color: #0000fe;
+font-syle:  italic; 
+font-size:  small;}
+
+html {
+height: 100%;
+}
+body {
+background-image: linear-gradient(
+#FBFCFC, rgb(208, 236, 231 ));
+}
+
+
+body{
+  background:#F4FA58;
+}
+
+
+.galleria {
+  width: 1550px; # el ancho nos limitara el numero de imagenes por fila. 
+  margin: auto; # esto es para centrar todas las imagenes
+}
+
+.item {
+  float: left;
+  width: 370px;
+  height: 450px;
+  margin-bottom: 1px; #separación con las filas inferiores
+  overflow: hidden; Para que la imagen no se salga
+  margin-right: 70px; # Separacion por la derecha
+}
+
+.item img {
+  width:370px; # Tiene que ser como el ancho de .item
+} 
+
+-->
+
+</style>
+</head>
+
+<body>
+
+<div id="galeria" > 
+
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20210829_114243_428.jpg" alt="1" >
+    </div>
+
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/foto.jpg" alt="2" >
+    </div>
+
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG-20211227-WA0004%20-%20Copy.jpg" alt="3" >
+    </div>
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20210829_114309_346.jpg" alt="4" >
+    </div>
+ 
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20211225_153157_542.jpg" alt="5" >
+    </div>
+  
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20211225_153211_718.jpg" alt="6" >
+    </div>
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG-20220122-WA0002.jpg" alt="7" >
+    </div>   
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210530_102707.jpg" alt="8" >
+    </div> 
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG-20210125-WA0022.jpg" alt="9" >
+	</div>
+
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210530_102828.jpg" alt="10" >
+    </div>
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210531_192938.jpg" alt="11" >
+    </div> 
+	  
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20211225_111536.jpg" alt="12" >
+    </div>
+ 
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20210829_114630_690.jpg" alt="13" >
+    </div>
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210529_113958.jpg" alt="14" >
+    </div> 
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/FB_IMG_1591752461369.jpg" alt="15" >
+    </div>
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210530_102707.jpg" alt="16" >
+    </div> 
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG-20210919-WA0069.jpg" alt="17" >
+    </div> 
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/Screenshot_20211227-001826_Facebook.jpg" alt="18" >
+    </div>
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210526_124719.jpg" alt="19" >
+    </div>
+
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20201024_151550.jpg" alt="20" >
+    </div>
+		
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/FB_IMG_1584240867618.jpg" alt="21" >
+    </div>
+
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG-20210815-WA0028.jpg" alt="22" >
+    </div>
+			
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/Screenshot_20220324-152849_Instagram.jpg" alt="23" >
+    </div>
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20211213_131359_780.jpg" alt="24" >
+    </div> 
+  
+  	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20211213_131642_194.jpg" alt="25" >
+    </div> 
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/IMG_20211229_141443_053.jpg" alt="26" >
+    </div>
+
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210529_102831.jpg" alt="27" >
+    </div>
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210520_182836.jpg" alt="28" >
+    </div> 
+	
+	
+	<div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210601_200450.jpg" alt="29" >
+    </div> 
+	
+    <div class="item">
+    <img src="file:///C:/Program%20Files/Notepad++/My%20Final%20Proyect/Fictures/20210530_102721.jpg" alt="30" >
+    </div> 
+
+</div>	
+</body>
+</html>
